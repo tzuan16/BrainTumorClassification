@@ -15,13 +15,13 @@ def parse_data():
             label = data['label'][0, 0]
             img = np.array(data['image'])
             if label == 1:
-                meningioma.append(img)
+                meningioma.append([img,label])
             elif label == 2:
-                glioma.append(img)
+                glioma.append([img,label])
             elif label == 3:
-                pituitary.append(img)
+                pituitary.append([img,label])
             else:
-                no_class.append(img)
+                no_class.append([img,label])
         except:
             continue
 
