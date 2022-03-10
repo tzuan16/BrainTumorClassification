@@ -3,7 +3,7 @@ import h5py
 import os
 
 def parse_data():
-    dir = './data/'
+    dir = 'BrainTumorClassification/data/'
     meningioma = []
     glioma = []
     pituitary = []
