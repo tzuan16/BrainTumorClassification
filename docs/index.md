@@ -26,6 +26,18 @@ This data is organized in matlab data format (.mat file). Each file stores a str
 - cjdata.tumorBorder : a vector storing the coordinates of discrete points on tumor border
 - cjdata.tumorMask : a binary image with 1s indicating tumor region
 
+## Approach
+
+
+
+## Results
+
+
+
+## Discussion
+
+
+
 ```markdown
 Syntax highlighted code block
 
