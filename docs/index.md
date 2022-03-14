@@ -13,7 +13,15 @@ This motivated us take up to classify brain tumors through MRIs by training a ne
 
 ## Dataset
 
+The dataset used for our brain tumor classification model is published by Jun Chen. It contains 3064 T1-weighted contrast-inhanced MRI images of patients with three kinds of brain tumor: meningioma (708 slices), glioma (1426 slices), and pituitary tumor (930 slices).
 
+This data is organized in matlab data format (.mat file). Each file stores a struct containing the following fields for an image:
+
+cjdata.label : 1 for meningioma, 2 for glioma, 3 for pituitary tumor
+cjdata.PID : patient ID
+cjdata.image : image data
+cjdata.tumorBorder : a vector storing the coordinates of discrete points on tumor border
+cjdata.tumorMask : a binary image with 1s indicating tumor region
 
 ```markdown
 Syntax highlighted code block
