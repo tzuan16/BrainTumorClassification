@@ -1,8 +1,11 @@
 # Brain Tumor Classification through MRIs
 
-Hung-An Chen (hungan),
-Aditya Nayak (adityamn),
-Muni Kumar Pridivi Vasu (mkpvasu),
+Hung-An Chen (hungan)
+
+Aditya Nayak (adityamn)
+
+Muni Kumar Pridivi Vasu (mkpvasu)
+
 Austin Sacro (ajsacro)
 
 ## Description
@@ -18,9 +21,13 @@ The dataset used for our brain tumor classification model is published by Jun Ch
 This data is organized in matlab data format (.mat file). Each file stores a struct containing the following fields for an image:
 
 cjdata.label : 1 for meningioma, 2 for glioma, 3 for pituitary tumor
+
 cjdata.PID : patient ID
+
 cjdata.image : image data
+
 cjdata.tumorBorder : a vector storing the coordinates of discrete points on tumor border
+
 cjdata.tumorMask : a binary image with 1s indicating tumor region
 
 ```markdown
