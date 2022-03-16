@@ -36,7 +36,8 @@ This data is organized in matlab data format (.mat file). Each file stores a str
 
 ## Discussion
 
-
+What problems did you encounter?
+Throughout this project, we ran into a few problems and obstacles along the way. We were initially running into problems using the resnet model. If we were to keep working on the project in the future, one of the next steps we would tke would be to train our model to learn a fourth classification, which would be no tumor. The dataset we used only had three classifications (Glicoma, Meningioma, and Pituitary), and initially we wanted to add this fourth classification of no tumor, but all of the datasets we found with no tumor were formatted and organized differently than the dataset we were already using. If we had more time, we would like to find a dataset for the no tumor classification and augment it to match our existing dataset.
 
 ```markdown
 Syntax highlighted code block
