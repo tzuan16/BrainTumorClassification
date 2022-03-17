@@ -27,7 +27,7 @@ This data is organized in matlab data format (.mat file). Each file stores a str
 - cjdata.tumorMask : a binary image with 1s indicating tumor region
 
 ## Approach
-Initially the data has been seggregated to three class types. The train and test set has been split based on the desired ratio (Here, 0.7). 70% of each category of the data will be 
+Initially the data has been seggregated to three class types. The train and test set has been split based on the desired ratio (Here, 0.7). 70% of each category of the data will be randomly picked up for the training set and the rest 30% will be categorized to the test data. Then, the images have been converted to tensors alonge with augmenting each image by rotating 90 degrees and vertical flipping the same. This avoids the model to overfit the training data. Here, Resnet50 which is pretrained in ImageNet dataset has been utilized as our model.
 
 
 ## Previous work
