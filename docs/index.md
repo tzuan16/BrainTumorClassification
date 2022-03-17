@@ -64,20 +64,31 @@ differently than the dataset we were already using. If we had more time, we woul
 to find a dataset for the no tumor classification and augment it to match our existing
 dataset.
 
-```markdown
-Syntax highlighted code block
+[//]: # (```markdown)
 
-# Header 1
-## Header 2
-### Header 3
+[//]: # (Syntax highlighted code block)
 
-- Bulleted
-- List
+[//]: # ()
+[//]: # (# Header 1)
 
-1. Numbered
-2. List
+[//]: # (## Header 2)
 
-**Bold** and _Italic_ and `Code` text
+[//]: # (### Header 3)
 
-[Link](url) and ![Image](src)
-```
+[//]: # ()
+[//]: # (- Bulleted)
+
+[//]: # (- List)
+
+[//]: # ()
+[//]: # (1. Numbered)
+
+[//]: # (2. List)
+
+[//]: # ()
+[//]: # (**Bold** and _Italic_ and `Code` text)
+
+[//]: # ()
+[//]: # ([Link]&#40;url&#41; and ![Image]&#40;src&#41;)
+
+[//]: # (```)
