@@ -36,15 +36,14 @@ network being overfitted to our training dataset. We got ~99% of training accura
 yet the testing accuracy was merely ~91%. As a result, we ran the model several times
 with distinct combinations of optimizer parameters, in an attempt to fine tune with
 the best accuracy. It turned out that using `decay=0.01` and `momentum=0.1` gave
-the optimal result with a training accuracy of 99.8% and a testing accuracy of 99.3%. Notice
-that the overfitting issue has been significantly mitigated by introducing
-weight decays.
+the optimal result with a training accuracy of 95.6% and a testing accuracy of 89%. We
+noticed that the testing accuracy had space for improvement and inferred that the
+size of our training dataset should be larger.
 
 The following graph shows the changes of convolutional losses as the training goes
-on (The x-axis shows iterations). ![Itr vs Loss](./loss.png) We can clearly see that
-the loss significantly dropped during the first epoch and fluctuated below 0.5 during
-subsequent epochs.
-
+on (The x-axis shows iterations). We can clearly see that the loss significantly dropped
+during the first two epochs and fluctuated below 0.5 during subsequent epochs.
+![Itr vs Loss](./loss.png)
 
 ## Discussion
 
