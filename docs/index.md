@@ -27,7 +27,7 @@ This data is organized in matlab data format (.mat file). Each file stores a str
 - cjdata.tumorMask : a binary image with 1s indicating tumor region
 
 ## Approach
-
+Initially the data has been seggregated to three class types. The train and test set has been split based on the desired ratio (Here, 0.7). 70% of each category of the data will be 
 
 
 ## Previous work
