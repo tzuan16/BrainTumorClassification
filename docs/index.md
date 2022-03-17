@@ -30,6 +30,10 @@ This data is organized in matlab data format (.mat file). Each file stores a str
 
 
 
+## Previous work
+
+Our project was inspired by [Deep Residual Learning for Image Recognition (K. He et al., 2016)](https://arxiv.org/pdf/1512.03385.pdf). We wanted to test and compare the efficiency of the ResNet-50 neural network, both pre-trained and non-pre-trained versions, trained on the [Brain Tumor Classification (MRI)](https://figshare.com/articles/dataset/brain_tumor_dataset/1512427?file=7953679) dataset with variations and optimizations.
+
 ## Results
 Initially, we ran ResNet with no momentum and weight decay, which resulted in the
 network being overfitted to our training dataset. We got ~99% of training accuracy
@@ -43,6 +47,7 @@ size of our training dataset should be larger.
 The following graph shows the changes of convolutional losses as the training goes
 on (The x-axis shows iterations). We can clearly see that the loss significantly dropped
 during the first two epochs and fluctuated below 0.5 during subsequent epochs.
+
 ![Itr vs Loss](./loss.png)
 
 ## Discussion
@@ -76,13 +81,3 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/tzuan16/BrainTumorClassification/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
