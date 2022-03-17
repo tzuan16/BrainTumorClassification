@@ -54,7 +54,7 @@ during the first two epochs and fluctuated below 0.5 during subsequent epochs.
 
 Throughout this project, we ran into a few problems and obstacles along the way. 
 We were initially running into some size and dimensional input problems using the 
-resnet model, but then, we were getting some CUDA RuntineExceptions where we would 
+resnet model, but then, we were getting CUDA RuntimeExceptions where we would 
 run out of memory. If we were to keep working on the project in the future, one of 
 the next steps we would take would be to train our model to learn a fourth classification, 
 which would be no tumor. The dataset we used only had three classifications (Glicoma, 
