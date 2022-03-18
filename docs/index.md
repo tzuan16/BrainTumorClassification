@@ -9,7 +9,7 @@ Muni Kumar Pridivi Vasu (mkpvasu)
 Austin Sacro (ajsacro)
 
 ## Video Walkthrough
-![https://youtu.be/6u4weY28X5A](https://youtu.be/6u4weY28X5A)
+[![YouTube link](https://img.youtube.com/vi/6u4weY28X5A/0.jpg)](https://youtu.be/6u4weY28X5A)
 
 ## Description
 
